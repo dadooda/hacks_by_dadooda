@@ -30,7 +30,7 @@ HackTree.define do
       rescue
         puts "Error: `less` not found, install `irb_hacks` gem"
         next
-      end 
+      end
     end
   end
 end
