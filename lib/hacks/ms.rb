@@ -54,7 +54,7 @@ HackTree.define do
     file, line = *meth.source_location
 
     if not file
-      puts "Method source not available".
+      puts "Method source not available"
       next
     end
 
